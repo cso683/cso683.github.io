@@ -1,14 +1,55 @@
 @import url(fonts/clear-sans.css);
+@import url("http://fonts.googleapis.com/css?family=Source+Code+Pro:400,600,700");
 html, body {
   margin: 0;
   padding: 0;
-  background: #faf8ef;
-  color: #776e65;
+  background: #9cc2d2;
+  color: #354b59;
   font-family: "Clear Sans", "Helvetica Neue", Arial, sans-serif;
+  font-family: "Whitney SSm A","Whitney SSm B","Helvetica Neue",Helvetica,Arial,sans-serif;
   font-size: 18px; }
 
 body {
   margin: 80px 0; }
+p.learn {
+  margin-top: 20px;
+}
+
+span.tile-text {
+  line-height: 1.25;
+}
+
+input {
+  display: inline-block;
+  background: #8f7a66;
+  border-radius: 3px;
+  padding: 0 20px;
+  text-decoration: none;
+  color: #f9f6f2;
+  height: 40px;
+  line-height: 42px;
+  cursor: pointer;
+  font: inherit;
+  border: none;
+  outline: none;
+  box-sizing: border-box;
+  font-weight: bold;
+  margin: 0;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none; }
+input[type="text"], input[type="email"] {
+  cursor: auto;
+  background: #fcfbf9;
+  font-weight: normal;
+  color: #776e65;
+  padding: 0 15px; }
+  input[type="text"]::-webkit-input-placeholder, input[type="email"]::-webkit-input-placeholder {
+    color: #9d948c; }
+  input[type="text"]::-moz-placeholder, input[type="email"]::-moz-placeholder {
+    color: #9d948c; }
+  input[type="text"]:-ms-input-placeholder, input[type="email"]:-ms-input-placeholder {
+      color: #9d948c; }
 
 .heading:after {
   content: "";
@@ -16,8 +57,8 @@ body {
   clear: both; }
 
 h1.title {
-  font-size: 80px;
-  font-weight: bold;
+  font-size: 55px;
+  font-weight: medium;
   margin: 0;
   display: block;
   float: left; }
@@ -101,8 +142,7 @@ p {
   line-height: 1.65; }
 
 a {
-  color: #776e65;
-  font-weight: bold;
+  font-weight: medium;
   text-decoration: underline;
   cursor: pointer; }
 
