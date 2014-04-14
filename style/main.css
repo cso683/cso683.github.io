@@ -274,7 +274,7 @@ hr {
       color: #f9f6f2; }
     .game-message.game-won a.keep-playing-button {
         display: inline-block; }
-    .game-message.game-won, .game-container .game-message.game-over {
+    .game-message.game-won, .game-message.game-over {
       display: block; }
     .game-message.game-won p, .game-message.game-over p {
       -webkit-animation: slide-up 1.5s ease-in-out 2500ms;
@@ -649,7 +649,7 @@ hr {
     box-sizing: border-box;
     line-height: 1.65; }
 
-  .restart-button .retry-button {
+  .restart-button, .retry-button {
     width: 42%;
     padding: 0;
     display: block;
@@ -702,8 +702,8 @@ hr {
    .game-message .lower {
         display: block;
         margin-top: 59px; }
-  .game-message .mailing-list {
-    margin-top: 52px; }
+    .game-message .mailing-list {
+        margin-top: 52px; }
     .game-message .mailing-list strong {
         display: block;
         margin-bottom: 10px; }
