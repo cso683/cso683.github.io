@@ -269,12 +269,12 @@ hr {
         display: inline-block;
         vertical-align: middle;
         margin-left: 10px; }
-    .game-container .game-message.game-won {
+    .game-message.game-won {
       background: rgba(237, 194, 46, 0.5);
       color: #f9f6f2; }
-      .game-container .game-message.game-won a.keep-playing-button {
+    .game-message.game-won a.keep-playing-button {
         display: inline-block; }
-    .game-container .game-message.game-won, .game-container .game-message.game-over {
+    .game-message.game-won, .game-container .game-message.game-over {
       display: block; }
     .game-message.game-won p, .game-message.game-over p {
       -webkit-animation: slide-up 1.5s ease-in-out 2500ms;
