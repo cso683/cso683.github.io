@@ -97,7 +97,7 @@ h1.title {
 .score-container, .best-container {
   position: relative;
   display: inline-block;
-  background: #bbada0;
+  background: #0c92bf;
   padding: 15px 25px;
   font-size: 25px;
   height: 25px;
@@ -210,7 +210,7 @@ hr {
   -ms-user-select: none;
   -ms-touch-action: none;
   touch-action: none;
-  background: #bbada0;
+  background: #1e6477;
   border-radius: 6px;
   width: 500px;
   height: 500px;
@@ -243,7 +243,7 @@ hr {
       margin-top: 222px; }
     .game-message .lower {
       display: block;
-      margin-top: 59px; }
+      margin-top: 29px; }
     .game-message .mailing-list {
       margin-top: 52px; }
     .game-message .mailing-list strong {
